@@ -1,0 +1,30 @@
+{
+  "name": "api-bke-express-wrley-ads",
+  "version": "1.0.0",
+  "description": "API node Master",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wrleymartins/api-bke-express-wrley-ads.git"
+  },
+  "keywords": [
+    "api",
+    "node",
+    "wrley"
+  ],
+  "author": "Wrley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wrleymartins/api-bke-express-wrley-ads/issues"
+  },
+  "homepage": "https://github.com/wrleymartins/api-bke-express-wrley-ads#readme",
+  "devDependencies": {
+    "prisma": "^5.19.1"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.19.1"
+  }
+}
