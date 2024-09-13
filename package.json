@@ -3,7 +3,15 @@
   "version": "1.0.0",
   "description": "API node Master",
   "main": "src/server.js",
-  "scripts": {
+  "scripts": { "start": "node src/server.js",
+  "dev": "node --env-file=.env --watch src/server.js",
+  "prisma:local:pull": "npx prisma db pull --schema=./prisma/schema.local.prisma",
+  "prisma:local:push": "npx prisma db push --schema=./prisma/schema.local.prisma",
+  "prisma:local:generate": "npx prisma generate --schema=./prisma/schema.local.prisma",
+  "prisma:pull": "npx prisma db pull --schema=./prisma/schema.production.prisma",
+  "prisma:push": "npx prisma db push --schema=./prisma/schema.production.prisma",
+  "prisma:generate": "npx prisma generate --schema=./prisma/schema.production.prisma"
+
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
